@@ -2,7 +2,6 @@
 A collection of diverse Flutter-based mobile applications, each addressing a unique use case and showcasing different aspects of mobile app development. This repository is ideal for developers who want to explore and contribute to projects with varying levels of complexity and features.  
 
 ## **Projects Overview**  
----
 ### **1. Recipe Finder**  
 **Description:**  
 An intuitive app that helps users find and display recipes based on the ingredients they have at hand. Built using **Flutter**, it leverages the [**TheMealDB API**](https://www.themealdb.com/) to fetch recipes, providing a seamless user experience.  
@@ -36,8 +35,7 @@ Turn chaos into clarity with this task management app. TaskTastic is designed to
 - Categorize tasks (e.g., work, personal, errands).  
 - Set due dates and receive reminders.  
 - Roadmap includes collaborative task management and progress visualization.  
-
----  
+ 
 
 ## **Contributing Guidelines**  
 We welcome contributions to any of the projects in this repository. Here’s how you can contribute:  
@@ -54,7 +52,6 @@ We welcome contributions to any of the projects in this repository. Here’s how
 4. **Submit a Pull Request (PR):**  
    Push your changes and open a PR for review and discussion.  
 
----  
 
 ## **How to get started?**  
 1. Ensure you have **Flutter** and **Dart** installed on your system.  
