@@ -5,8 +5,6 @@ An intuitive app that helps users find and display recipes based on the ingredie
 
 **Project Mentor**  : [Shriya S](https://github.com/soctopus2327)
 
----
-
 ## **Description**  
 Recipe Finder is designed to make cooking easier and more enjoyable. Users can input ingredients they have, and the app displays recipes they can prepare. With its clean interface and dynamic navigation, the app ensures a hassle-free experience for anyone looking to whip up a delicious meal with what’s available.  
 
@@ -21,7 +19,7 @@ The app currently consists of the following screens:
 3. **Recipe Display Screen:**  
    - Displays recipes based on the provided ingredients.  
    - Each recipe is shown with its title, thumbnail, and a "View Recipe Details" button for detailed instructions.  
-
+---
 **MealDB API : [https://www.themealdb.com/](https://www.themealdb.com/) **
 ---
 
@@ -32,7 +30,6 @@ This project welcomes contributions from developers of all skill levels. Whether
 - Adding new features to enhance the app's functionality.  
 - Ensuring clean, efficient, and maintainable code.
 
----
 
 ## Issues
 1. **Implement the "View Recipe Details" Button:** Add functionality to display detailed instructions and ingredients for a selected recipe.  
@@ -53,7 +50,7 @@ This project welcomes contributions from developers of all skill levels. Whether
 3. Navigate to the project directory:
    ```bash
    cd RecipeFinder
-  ```
+   ```
 4. Install dependencies:
   ```bash
   flutter pub get
