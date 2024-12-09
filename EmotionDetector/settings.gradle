@@ -1,0 +1,3 @@
+include ':facedetector'
+include ':app'
+rootProject.name = "Fer App"
