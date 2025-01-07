@@ -2,12 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-class RecipeDisplayScreen extends StatefulWidget {
+class RecipeDisplayPage extends StatefulWidget {
   @override
-  _RecipeDisplayScreenState createState() => _RecipeDisplayScreenState();
+  _RecipeDisplayPageState createState() => _RecipeDisplayPageState();
 }
 
-class _RecipeDisplayScreenState extends State<RecipeDisplayScreen> {
+class _RecipeDisplayPageState extends State<RecipeDisplayPage> {
   late Future<List<dynamic>> _recipes;
 
   Future<List<dynamic>> fetchRecipes(String ingredient) async {
