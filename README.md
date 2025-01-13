@@ -65,14 +65,12 @@ We welcome contributions to any of the projects in this repository. Here’s how
    Push your changes and open a PR for review and discussion.  
 
 
-## **How to get started?**  
-1. Ensure you have **Flutter** and **Dart** installed on your system.  
-2. Clone the repository:  
-   ```bash
-   git clone https://github.com/GDG-IGDTUW/Mobile-Dev.git
-   ```
-3. Navigate to the desired project directory:
-   ```bash
-   cd <project_name>
-   ```
-4. Follow the setup instructions provided in the project's README to get started with contributing.
+## Steps to Get Started:
+1. **Browse Projects**: Go through the projects listed on our website or GitHub repository and find one you feel comfortable contributing to.
+2. **Explore Issues**: Look at the existing issues of your selected project and find one that interests you. Alternatively, you can create issues on your own.
+3. **Tag Maintainers**: Tag repository maintainers (mentioned in the README) if you encounter any problems.
+4. **Get Issue Assigned**: Wait for the issue to be assigned to you before starting your work.
+5. **Fork the Repository**: Create a branch for the issue you're working on.
+6. **Submit Your Work**: Create a Pull Request (PR), _mentioning the issue no. and the changes made by you_. It will be promptly reviewed, and suggestions will be provided if needed.
+7. **Add Screenshots**: Attach screenshots to your PR to demonstrate your contribution.
+8. **Follow Repository Guidelines**: Each repository's README contains specific contribution guidelines.
