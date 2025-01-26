@@ -2,7 +2,6 @@ class ToDo {
   String? id;
   String? todoText;
   bool isDone;
-  //Added Due date and priority for better user Interaction
   DateTime ?dueDate;
   int ?priority;
 

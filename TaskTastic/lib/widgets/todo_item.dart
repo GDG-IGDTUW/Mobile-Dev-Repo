@@ -44,7 +44,6 @@ class ToDoItem extends StatelessWidget {
                 decoration: todo.isDone ? TextDecoration.lineThrough : null,
               ),
             ),
-            //Made some changes here for due date ui regrading formatting and how it appears on the screen
             if (todo.dueDate != null)
               Text(
                 'Due: ${DateFormat('MMM dd, yyyy').format(todo.dueDate!)}',
