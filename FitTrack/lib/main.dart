@@ -156,6 +156,25 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                     child: const Text("Calculate"),
                   ),
+                  ElevatedButton(
+                    onPressed: (){
+                      wtController.clear();
+                      cmController.clear();
+                      setState(() {
+                          result = "Welcome to FitTrack BMI Calculator!\nEnter your details above to calculate your BMI.";
+                        });
+
+                  },
+                   style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color(0xFF9C7E39),
+                      foregroundColor: Colors.white,
+                      textStyle: const TextStyle(fontWeight: FontWeight.bold),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                    ),
+                  child: Text('Clear Form'),
+                  ),
                   const SizedBox(height: 20),
                   Card(
                     elevation: 5,
