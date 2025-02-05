@@ -1,3 +1,4 @@
+import 'package:bmi_calculator/result_screen.dart';
 import 'package:bmi_calculator/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -123,23 +124,13 @@ class _MyHomePageState extends State<MyHomePage> {
                         var tM = iCm / 100;
 
                         var bmi = iWt / (tM * tM);
-                        String msg;
 
-                        if (bmi > 25) {
-                          msg = "You're Overweight!";
-                          bgColor = const Color(0xFFF9BA5B);
-                        } else if (bmi < 18) {
-                          msg = "You're Underweight!";
-                          bgColor = const Color(0xFFEE9C9C);
-                        } else {
-                          msg = "You're Healthy!";
-                          bgColor = const Color(0xFFA8E8AB);
-                        }
-
-                        setState(() {
-                          result =
-                              "$msg\nYour BMI is: ${bmi.toStringAsFixed(2)}";
-                        });
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ResultScreen(bmi: bmi),
+                          ),
+                        );
                       } else {
                         setState(() {
                           result = "Please fill all fields!";
